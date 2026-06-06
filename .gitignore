@@ -1,0 +1,23 @@
+__pycache__/
+*.pyc
+.venv/
+virtualenv/
+venv/
+.vscode/
+.DS_Store
+
+# Data files
+data/*.csv
+!data/cleaned_online_retail.csv
+
+# Database file
+database/*.db
+
+# Model files
+models/*.pkl
+
+# Plot files
+docs/plots/
+
+# Streamlit cache
+.streamlit/

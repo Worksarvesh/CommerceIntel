@@ -1,0 +1,57 @@
+direction: right
+
+Cloud: {
+  StreamlitDashboard: "Streamlit Dashboard" {
+    shape: cylinder
+  }
+  
+  User: "End User" {
+    shape: person
+  }
+
+  User -> StreamlitDashboard
+}
+
+Platform: {
+  DataIngestion: "Data Ingestion & Cleaning" {
+    shape: square
+  }
+  
+  Database: "SQLite Database" {
+    shape: cylinder
+  }
+  
+  EDA: "Exploratory Data Analysis" {
+    shape: square
+  }
+  
+  RFM: "RFM Analysis" {
+    shape: square
+  }
+  
+  Segmentation: "Customer Segmentation" {
+    shape: square
+  }
+  
+  Recommendation: "Recommendation System" {
+    shape: square
+  }
+  
+  ChurnPrediction: "Churn Prediction" {
+    shape: square
+  }
+
+  DataIngestion -> Database
+  Database -> EDA
+  Database -> RFM
+  RFM -> Segmentation
+  RFM -> ChurnPrediction
+  Database -> Recommendation
+  
+  StreamlitDashboard -> EDA
+  StreamlitDashboard -> RFM
+  StreamlitDashboard -> Segmentation
+  StreamlitDashboard -> Recommendation
+  StreamlitDashboard -> ChurnPrediction
+  StreamlitDashboard -> Database
+}
