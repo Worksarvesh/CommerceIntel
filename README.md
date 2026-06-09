@@ -33,7 +33,7 @@ CommerceIntel is a comprehensive, end-to-end analytics platform designed for e-c
 
 1.  **Clone the repository**:
     ```bash
-    git clone https://github.com/your-username/CommerceIntel.git
+    git clone https://github.com/Worksarvesh/CommerceIntel.git
     cd CommerceIntel
     ```
 
