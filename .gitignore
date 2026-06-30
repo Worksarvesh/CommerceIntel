@@ -1,0 +1,47 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Data artifacts
+data/processed/
+data/outputs/
+database/*.db
+models/*.joblib
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Logs and reports
+*.log
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Keep directory placeholders
+!data/processed/.gitkeep
+!data/outputs/.gitkeep
+!models/.gitkeep
+
+# Kaggle credentials
+.kaggle/
+
+# Environment variables
+.env
