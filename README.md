@@ -85,4 +85,5 @@ This project is licensed under the MIT License.
 
 ## Contact
 
-For any inquiries, please contact [Your Name/Email/LinkedIn].
+For any inquiries, please contact Sarvesh Sharma worksarvesh05@gmail.com
+
